@@ -19,7 +19,7 @@ var default_delay = 0;
 
 // default speed: the default amount of time in milliseconds that
 // elapses during the fade in animation.
-var default_speed = 800;
+var default_speed = 600;
 
 
 // ----------------------------------------------------------------

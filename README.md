@@ -1,5 +1,5 @@
 # fadein.js
-A jQuery extension that fades in objects once they appear within browser view.
+A jQuery extension that fades in objects once they appear within the active browser view.
 
 ## Installation
 Include jQuery first then fadein.js.
@@ -11,13 +11,26 @@ Include jQuery first then fadein.js.
 ## Usage
 Add the "fadein" class to any object.
 ```html
-<div class="fadein">This will fade in</div>
+<div class="fadein">This DIV will fade in.</div>
+```
+
+## Examples
+Fade in 3 images, on the same line, 300ms apart.
+```html
+<img src="/images/image1.jpg" class="fadein">
+<img src="/images/image2.jpg" class="fadein" data-delay="300">
+<img src="/images/image3.jpg" class="fadein" data-delay="600">
+```
+
+Fade in one image, extremely slow, over the span of 5 seconds.
+```html
+<img src="/images/image1.jpg" class="fadein" data-speed="5000">
 ```
 
 ## Attributes
 | Attribute   | Purpose                                                                  | Default Value |
 | ----------- |------------------------------------------------------------------------- | --------------|
-| data-delay  | time to wait in milliseconds before the fading in of an element begins.  | 0             |
+| data-delay  | time in milliseconds before the fading in of an element begins.          | 0             |
 | data-speed  | time in milliseconds that elapses during the fade in animation.          | 800           |
 
 ## Live Demo

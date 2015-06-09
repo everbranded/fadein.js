@@ -9,9 +9,9 @@ Include jQuery first then fadein.js.
 ```
 
 ## Usage
-Add the "fadein" class to any object.
+Add the "fadein" class to any object. You should use an inline style or class stylesheet to set this element's opacity to 0.
 ```html
-<div class="fadein">This DIV will fade in.</div>
+<div class="fadein" style="opacity:0;">This DIV will fade in.</div>
 ```
 
 ## Examples
@@ -32,6 +32,7 @@ Fade in one image, extremely slow, over the span of 5 seconds.
 | ----------- |------------------------------------------------------------------------- | --------------|
 | data-delay  | time in milliseconds before the fading in of an element begins.          | 0             |
 | data-speed  | time in milliseconds that elapses during the fade in animation.          | 800           |
+| data-always | a true or false that fades in element regardless of position.            | false         |
 
 ## Live Demo
 ```html

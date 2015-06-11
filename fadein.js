@@ -1,10 +1,18 @@
 /**
-	Project: Fade In
-	Filename: fadein.js
-	Description: A jQuery extension that fades in objects 
-	once they appear within the active browser view.
-	Author: Zach Alam
-	Example: http://everbranded.com/
+  __          _      _         _     
+ / _|        | |    (_)       (_)    
+| |_ __ _  __| | ___ _ _ __    _ ___ 
+|  _/ _` |/ _` |/ _ \ | '_ \  | / __|
+| || (_| | (_| |  __/ | | | |_| \__ \
+|_| \__,_|\__,_|\___|_|_| |_(_) |___/
+                             _/ |    
+                            |__/     
+                            
+Filename: fadein.js
+Description: A jQuery extension that fades in objects 
+once they appear within the active browser view.
+Author: Zach Alam
+Example: http://everbranded.com/
 */
 
 

@@ -55,8 +55,8 @@ $(document).ready(function() {
 	// function that defines the fading in of a element (when scrolled).
 	function element_fade_scroll(element)
 	{
-		// calculate the bottom of the object.
-		var object_bottom = $(element).offset().top + $(element).outerHeight();
+		// calculate the halfway to the bottom of the object.
+		var object_bottom = $(element).offset().top + ($(element).outerHeight()/2);
 
 		// calculate the bottom of the window.
 		var window_bottom = $(window).scrollTop() + $(window).height();
